@@ -75,6 +75,12 @@ val SWITCH_LANGUAGE_KEYC =
         action = SwitchLanguage,
         color = MUTED,
     )
+val MOVE_KEYBOARD_CYCLE_LEFT_KEYC =
+    KeyC(
+        display = KeyDisplay.IconDisplay(Icons.Outlined.LinearScale),
+        action = MoveKeyboard.CycleLeft,
+        color = MUTED,
+    )
 val MOVE_KEYBOARD_CYCLE_RIGHT_KEYC =
     KeyC(
         display = KeyDisplay.IconDisplay(Icons.Outlined.LinearScale),
